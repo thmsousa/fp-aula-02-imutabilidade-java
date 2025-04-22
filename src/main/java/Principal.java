@@ -12,7 +12,7 @@ public class Principal {
         CidadeRecord cidadeRecord = new CidadeRecord("São Paulo");
         System.out.println("CidadeRecord: " + cidadeRecord.nome());
 
-        Cidade cidade = new Cidade("Rio de Janeiro");
+        Cidade cidade = new Cidade("Rio de Janeiro.");
         System.out.println("Cidade inicial (Classe Cidade): " + cidade.getNome());
         cidade.setNome("Belo Horizonte");
         System.out.println("Cidade alterada (Classe Cidade): " + cidade.getNome());
